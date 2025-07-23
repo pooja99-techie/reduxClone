@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redux Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./reduxClone.css" />
+  </head>
+  <body>
+    <div class="header-bar"></div>
+    <nav id="navBar">
+      <div id="navBar-logo">
+        <a href="#">
+          <div class="nav-logo">
+            <img src="https://redux.js.org/img/redux.svg" alt="redux-logo" />
+            <span id="logo-name">Redux</span>
+          </div>
+        </a>
+      </div>
+
+      <div id="nav-items-lists">
+        <div><a href="#">Getting Started</a></div>
+        <div><a href="#">Tutorial</a></div>
+        <div><a href="#">Usage Guide</a></div>
+        <div><a href="#">API</a></div>
+        <div><a href="#">FAQ</a></div>
+        <div><a href="#">Best Practices</a></div>
+        <div>
+          <a href="#"
+            >GitHub <i class="fa-solid fa-up-right-from-square"></i
+          ></a>
+        </div>
+        <div><a href="#">Need Help?</a><a href="#"></a></div>
+        <div><i class="fa-solid fa-sun"></i></div>
+        <div class="search-bar">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <span>Search</span>
+          <div>⌘</div>
+          <div>K</div>
+        </div>
+      </div>
+    </nav>
+    <header class="header-banner">
+      <div class="header-banner-content">
+        <h1>Redux</h1>
+        <p>
+          A JS library for predictable and maintainable global state management
+        </p>
+        <button>
+          <a href="#">Get Started</a>
+        </button>
+      </div>
+    </header>
+
+    <main class="main-content">
+      <section class="section1-content">
+        <article class="col">
+          <div>
+            <img src="./Images/redux.svg" alt="tick" />
+          </div>
+          <div class="heading">Predictable</div>
+          <div class="para">
+            Redux helps you write applications that <b>behave consistently</b>,
+            run in different environments (client, server, and native), and are
+            <b>easy to test</b>.
+          </div>
+        </article>
+        <article class="col">
+          <div>
+            <img src="./Images/cube.svg" alt="tick" />
+          </div>
+          <div class="heading">Centralized</div>
+          <div class="para">
+            Centralizing your application's state and logic enables powerful
+            capabilities like <b>undo/redo, state persistence</b>, and much
+            more.
+          </div>
+        </article>
+        <article class="col">
+          <div>
+            <img src="./Images/debug.svg" alt="tick" />
+          </div>
+          <div class="heading">Debuggable</div>
+          <div class="para">
+            The Redux DevTools make it easy to trace
+            <b>when, where, why, and how your application's state changed</b>.
+            Redux's architecture lets you log changes, use
+            <b>"time-travel debugging"</b>, and even send complete error reports
+            to a server.
+          </div>
+        </article>
+        <article class="col">
+          <div>
+            <img src="./Images/setting.svg" alt="tick" />
+          </div>
+          <div class="heading">Flexible</div>
+          <div class="para">
+            Redux <b>works with any UI layer</b>, and
+            <b>has a large ecosystem of addons</b> to fit your needs.
+          </div>
+        </article>
+      </section>
+
+      <section class="section2-content">
+        <div class="section-photo"></div>
+      </section>
+      <section class="section3-content">
+        <div class="container">
+          <div class="row"><h2>Other Libraries from the Redux Team</h2></div>
+          <div class="row1">
+            <div class="col">
+              <h2>
+                React-Redux <i class="fa-solid fa-square-arrow-up-right"></i>
+              </h2>
+              <p>Official React bindings for Redux</p>
+            </div>
+            <div class="col">
+              <h2>
+                Redux Toolkit <i class="fa-solid fa-square-arrow-up-right"></i>
+              </h2>
+              <p>
+                The official, opinionated, batteries-included toolset for
+                efficient Redux development
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row footer-links">
+          <div class="col">
+            <div class="footer-title">Docs</div>
+            <ul class="footer-list">
+              <li class="footer-list-items">
+                <a href="#" class="list-item-links">Getting Started</a>
+              </li>
+              <li class="footer-list-items">
+                <a href="#" class="list-item-links">Usage Guide</a>
+              </li>
+              <li class="footer-list-items">
+                <a href="#" class="list-item-links">Tutorial</a>
+              </li>
+              <li class="footer-list-items">
+                <a href="#" class="list-item-links">FAQ</a>
+              </li>
+              <li class="footer-list-items">
+                <a href="#" class="list-item-links">API Reference</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col">
+            <div class="footer-title">Community</div>
+            <ul class="footer-list">
+              <li class="footer-list-items">
+                <a href="#" class="list-item-links"
+                  >Reactiflux Discord
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+              </li>
+              <li class="footer-list-items">
+                <a href="#" class="list-item-links"
+                  >Stack Overflow
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+              </li>
+              <li class="footer-list-items">
+                <a href="#" class="list-item-links">Feedback</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col">
+            <div class="footer-title">More</div>
+            <ul class="footer-list">
+              <li class="footer-list-items">
+                <a href="#" class="list-item-links"
+                  >Github <i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+              </li>
+              <li class="footer-list-items">
+                <a href="#" class="list-item-links"
+                  ><img
+                    src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg"
+                    alt=""
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div class="footer-logo">
+            <a href="#">
+              <img src="https://redux.js.org/img/redux.svg" alt="" />
+            </a>
+          </div>
+          <div class="footer-copyright">
+            Copyright © 2015–2025 Dan Abramov and the Redux documentation
+            authors.
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
